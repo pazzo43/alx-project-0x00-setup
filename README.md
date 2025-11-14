@@ -18,6 +18,9 @@ http://localhost:3000/landing
 <Card />
 # At the top of your tsx file include the following import if not done automatically
 import Card from "@/components/Card"
+# At the top, import the interface:
+import { PillProps } from "@/interfaces";
+
 
 Open http://localhost:3000 with your browser to see the result.
 
