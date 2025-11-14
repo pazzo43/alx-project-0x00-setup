@@ -1,14 +1,21 @@
+import Card from "@/components/Card";
+
 // pages/landing.tsx
 import React from 'react';
 
-const LandingPage = () => {
+const Landing: React.FC = () => {
   return (
-    <div>
-      <h1>Welcome to the Landing Page</h1>
-      <p>This is a separate route from the home page.</p>
-      <a href="/">Go back to Home</a>
+    <div className="p-4">
+      <h1 className="text-xl font-extralight">Landing Page</h1>
+
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };
 
-export default LandingPage;
+export default Landing;
+npm run dev -- -p 3000
+http://localhost:3000/landing
+
