@@ -12,6 +12,9 @@ bun dev
 npm run dev -- -p 3000
 # or
 http://localhost:3000
+# open
+http://localhost:3000/landing
+
 
 Open http://localhost:3000 with your browser to see the result.
 
