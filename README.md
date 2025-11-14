@@ -8,6 +8,11 @@ yarn dev
 pnpm dev
 # or
 bun dev
+# or
+npm run dev -- -p 3000
+# or
+http://localhost:3000
+
 Open http://localhost:3000 with your browser to see the result.
 
 You can start editing the page by modifying pages/index.tsx. The page auto-updates as you edit the file.
