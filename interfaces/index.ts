@@ -39,3 +39,7 @@ export default About;
 npm run dev -- -p 3000
 http://localhost:3000
 
+export interface PillProps {
+  title: string;
+}
+
