@@ -14,7 +14,10 @@ npm run dev -- -p 3000
 http://localhost:3000
 # open
 http://localhost:3000/landing
-
+# Add this line of code after your h1 tag
+<Card />
+# At the top of your tsx file include the following import if not done automatically
+import Card from "@/components/Card"
 
 Open http://localhost:3000 with your browser to see the result.
 
